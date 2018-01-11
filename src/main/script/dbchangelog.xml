@@ -27,5 +27,9 @@ http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
    <column name="Visit_date" type="varchar(50)"/>
   </addColumn>
  </changeSet>  
-
+  <changeSet id="11.3" author="Patient1">
+  <addColumn tableName="Employee_info123">
+   <column name="Visit_Time" type="varchar(50)"/>
+  </addColumn>
+ </changeSet>  
  </databaseChangeLog>
