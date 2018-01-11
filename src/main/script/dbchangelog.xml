@@ -6,36 +6,22 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
 http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
 
-
-<changeSet author="liquibase-docs" id="tagDatabase-example">
-    <tagDatabase tag="version_1.3"/>
+<changeSet author="DevOps123" id="11.0.0">
+    <tagDatabase tag="version_11.1.0"/>
 </changeSet>
 
+ <changeSet id="11.1" author="Patient1">
 
- <changeSet id="5" author="sadequl_hussain">
-  <createTable tableName="customer_info">
+  <createTable tableName="Employee_info123">
    <column name="id" type="int">
     <constraints primaryKey="true" nullable="false"/>
    </column>
-   <column name="customer_name" type="varchar(50)">
+   <column name="pateint_name" type="varchar(50)">
     <constraints nullable="false"/>
    </column>
    <column name="active" type="boolean" defaultValueBoolean="true"/>
   </createTable>
- </changeSet>
-  
- <changeSet id="5.3" author="equl_hussain">
-	  
-  <addColumn tableName="customer_info">
-   <column name="feedback_newsqw" type="varchar(50)"/>
-  </addColumn>
  </changeSet> 
-    <changeSet id="5.5" author="hussain123">
-
-  <addColumn tableName="customer_info">
-   <column name="latest_new23" type="varchar(50)"/>
-  </addColumn>
- </changeSet>  
  
 
  </databaseChangeLog>
