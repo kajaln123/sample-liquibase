@@ -39,8 +39,7 @@
 		<dependency>
       			<groupId>com.microsoft.sqlserver</groupId>
       			<artifactId>sqljdbc</artifactId>
-			<version>6.0</version>
-			<file.path>C:\liquibase-3.5.3-bin\sqljdbc_6.0\enu\jre8\sqljdbc42.jar</file.path> 
+			<version>4.2</version>
 		</dependency>
 		<dependency>
             		<groupId>org.liquibase</groupId>
