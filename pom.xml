@@ -41,7 +41,6 @@
       			<groupId>com.microsoft.sqlserver.jdbc.SQLServerDriver</groupId>
       			<artifactId>sqljdbc4</artifactId>
 			<version>42</version>
-			<packaging>jar</packaging>
 		</dependency>
 		<dependency>
             		<groupId>org.liquibase</groupId>
