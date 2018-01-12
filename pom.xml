@@ -39,7 +39,7 @@
 		<dependency>
 			
       			<groupId>com.microsoft.sqlserver.jdbc.SQLServerDriver</groupId>
-      			<artifactId>sqljdbc4</artifactId>
+      			<artifactId>sqljdbc</artifactId>
 			<version>42</version>
 		</dependency>
 		<dependency>
