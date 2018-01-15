@@ -38,7 +38,7 @@
 		</dependency>
 		<dependency>
 			
-      			<groupId>com.microsoft.sqlserver.jdbc.SQLServerDriver</groupId>
+      			<groupId>com.mysql.jdbc.Driver</groupId>
       			<artifactId>sqljdbc</artifactId>
 			<version>42</version>
 		</dependency>
